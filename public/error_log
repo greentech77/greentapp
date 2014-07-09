@@ -1,0 +1,626 @@
+[27-Nov-2013 20:49:59 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 11
+[28-Nov-2013 12:41:06 UTC] PHP Parse error:  syntax error, unexpected '$userId' (T_VARIABLE) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 23
+[28-Nov-2013 12:43:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 21
+[28-Nov-2013 12:45:41 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 25
+[28-Nov-2013 13:19:26 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Query\Expression::get() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 22
+[28-Nov-2013 13:23:25 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Query\Expression::get() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 22
+[28-Nov-2013 13:34:46 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 29
+[28-Nov-2013 13:35:02 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 31
+[28-Nov-2013 13:39:30 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 29
+[09-Dec-2013 19:46:14 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(InvalidArgumentException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(InvalidArgumentException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(InvalidArgumentException))
+#4 [internal function]: Illuminate\Exception\Handler->handleEx in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[09-Dec-2013 19:46:14 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(Symfony\Component\Debug\Excepti in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[09-Dec-2013 22:14:54 UTC] PHP Fatal error:  Class 'Promotion' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 34
+[10-Dec-2013 19:18:07 UTC] PHP Fatal error:  Class 'Photo' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 81
+[10-Dec-2013 19:18:50 UTC] PHP Fatal error:  Class 'FbUsers' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 81
+[10-Dec-2013 19:20:32 UTC] PHP Fatal error:  Class 'FbUsers' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 81
+[15-Dec-2013 13:33:17 UTC] PHP Fatal error:  Call to a member function rows() on a non-object in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 18
+[15-Dec-2013 13:38:10 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 23
+[16-Dec-2013 13:05:00 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 30
+[16-Dec-2013 13:05:28 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 30
+[16-Dec-2013 13:05:29 UTC] PHP Parse error:  syntax error, unexpected ''date'' (T_CONSTANT_ENCAPSED_STRING) in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 30
+[16-Dec-2013 13:05:43 UTC] PHP Parse error:  syntax error, unexpected ''date'' (T_CONSTANT_ENCAPSED_STRING) in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 30
+[16-Dec-2013 13:05:44 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 30
+[16-Dec-2013 13:20:23 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 62
+[16-Dec-2013 13:37:14 UTC] PHP Fatal error:  Class 'Questions' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 36
+[16-Dec-2013 18:07:01 UTC] PHP Parse error:  syntax error, unexpected '$promotion' (T_VARIABLE) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 46
+[16-Dec-2013 18:07:38 UTC] PHP Parse error:  syntax error, unexpected '$promotion' (T_VARIABLE) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 46
+[16-Dec-2013 18:08:02 UTC] PHP Parse error:  syntax error, unexpected '$promotion' (T_VARIABLE) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 46
+[16-Dec-2013 21:05:37 UTC] PHP Fatal error:  Class 'Question' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 96
+[16-Dec-2013 21:15:42 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(ReflectionException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(ReflectionException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(ReflectionException))
+#4 [internal function]: Illuminate\Exception\Handler->handleException(Object( in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:15:42 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(Symfony\Component\Debug\Excepti in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:15:44 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(ReflectionException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(ReflectionException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(ReflectionException))
+#4 [internal function]: Illuminate\Exception\Handler->handleException(Object( in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:15:44 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(Symfony\Component\Debug\Excepti in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:35:45 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(ReflectionException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(ReflectionException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(ReflectionException))
+#4 [internal function]: Illuminate\Exception\Handler->handleException(Object( in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:35:45 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(Symfony\Component\Debug\Excepti in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:35:46 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(ReflectionException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(ReflectionException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(ReflectionException))
+#4 [internal function]: Illuminate\Exception\Handler->handleException(Object( in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:35:46 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(Symfony\Component\Debug\Excepti in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:36:03 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(ReflectionException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(ReflectionException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(ReflectionException))
+#4 [internal function]: Illuminate\Exception\Handler->handleException(Object( in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:36:03 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(Symfony\Component\Debug\Excepti in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:36:53 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(ReflectionException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(ReflectionException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(ReflectionException))
+#4 [internal function]: Illuminate\Exception\Handler->handleException(Object( in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:36:53 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(Symfony\Component\Debug\Excepti in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:36:54 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(ReflectionException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(ReflectionException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(ReflectionException))
+#4 [internal function]: Illuminate\Exception\Handler->handleException(Object( in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:36:54 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ModelNotFoundException does not exist' in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php:305
+Stack trace:
+#0 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(305): ReflectionParameter->getClass()
+#1 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(289): Illuminate\Exception\Handler->hints(Object(ReflectionFunction), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#2 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(226): Illuminate\Exception\Handler->handlesException(Object(Closure), Object(Symfony\Component\Debug\Exception\FatalErrorException))
+#3 /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php(145): Illuminate\Exception\Handler->callCustomHandlers(Object(Symfony\Component\Debug\Excepti in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Exception/Handler.php on line 305
+[16-Dec-2013 21:55:08 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 6
+[16-Dec-2013 22:11:10 UTC] PHP Parse error:  syntax error, unexpected '<', expecting ')' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 9
+[17-Dec-2013 22:56:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 6
+[28-Dec-2013 19:29:21 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 107
+[28-Dec-2013 19:30:04 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 99
+[28-Dec-2013 19:49:58 UTC] PHP Parse error:  syntax error, unexpected ',', expecting '{' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 6
+[28-Dec-2013 19:50:40 UTC] PHP Parse error:  syntax error, unexpected ',', expecting '{' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 6
+[28-Dec-2013 19:53:32 UTC] PHP Fatal error:  Class 'Elequent' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 122
+[28-Dec-2013 20:01:37 UTC] PHP Fatal error:  Call to a member function to_array() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 101
+[29-Dec-2013 11:18:41 UTC] PHP Fatal error:  Call to a member function toArray() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 101
+[29-Dec-2013 11:19:07 UTC] PHP Fatal error:  Call to a member function to_array() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 101
+[29-Dec-2013 11:19:49 UTC] PHP Fatal error:  Call to a member function to_array() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 101
+[29-Dec-2013 13:56:14 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 5
+[29-Dec-2013 19:19:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 95
+[29-Dec-2013 19:20:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 95
+[29-Dec-2013 19:20:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 95
+[29-Dec-2013 19:20:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 95
+[29-Dec-2013 19:20:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 96
+[29-Dec-2013 19:20:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 96
+[29-Dec-2013 19:20:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 95
+[29-Dec-2013 19:20:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 95
+[29-Dec-2013 19:21:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 95
+[29-Dec-2013 19:37:21 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 55
+[29-Dec-2013 19:49:50 UTC] PHP Parse error:  syntax error, unexpected 'anwser1' (T_STRING) in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 59
+[29-Dec-2013 20:12:36 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 52
+[30-Dec-2013 12:01:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 156
+[30-Dec-2013 12:03:36 UTC] PHP Warning:  Unterminated comment starting line 52 in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 52
+[30-Dec-2013 12:03:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 53
+[30-Dec-2013 13:48:04 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 151
+[30-Dec-2013 14:13:03 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 157
+[30-Dec-2013 14:16:44 UTC] PHP Fatal error:  Call to undefined method stdClass::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 186
+[30-Dec-2013 14:17:00 UTC] PHP Fatal error:  Call to a member function save() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 186
+[30-Dec-2013 14:23:37 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 186
+[30-Dec-2013 14:25:14 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 187
+[30-Dec-2013 17:26:45 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 188
+[30-Dec-2013 17:27:59 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 198
+[30-Dec-2013 17:28:25 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 182
+[30-Dec-2013 17:28:38 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 198
+[30-Dec-2013 17:33:48 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 203
+[30-Dec-2013 17:34:30 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 192
+[30-Dec-2013 18:42:50 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 184
+[30-Dec-2013 21:01:18 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 193
+[04-Jan-2014 11:30:08 UTC] PHP Fatal error:  Call to undefined function strlower() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 144
+[04-Jan-2014 11:30:54 UTC] PHP Fatal error:  Call to a member function move() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 146
+[04-Jan-2014 11:31:36 UTC] PHP Fatal error:  Call to a member function move() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 146
+[04-Jan-2014 11:33:12 UTC] PHP Fatal error:  Call to a member function move() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 146
+[04-Jan-2014 11:49:31 UTC] PHP Fatal error:  Call to a member function move() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 150
+[04-Jan-2014 11:49:57 UTC] PHP Fatal error:  Call to a member function move() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 150
+[04-Jan-2014 11:54:20 UTC] PHP Fatal error:  Call to a member function move() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 153
+[04-Jan-2014 11:54:47 UTC] PHP Fatal error:  Call to a member function move() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 153
+[04-Jan-2014 11:54:59 UTC] PHP Fatal error:  Call to a member function move() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 153
+[04-Jan-2014 15:48:46 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 148
+[04-Jan-2014 15:49:21 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 148
+[04-Jan-2014 16:18:45 UTC] PHP Parse error:  syntax error, unexpected '$rules' (T_VARIABLE) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 169
+[05-Jan-2014 10:05:32 UTC] PHP Parse error:  syntax error, unexpected '.2' (T_DNUMBER) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 215
+[05-Jan-2014 10:58:58 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 215
+[05-Jan-2014 10:59:09 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 215
+[05-Jan-2014 11:00:36 UTC] PHP Fatal error:  Cannot use object of type Illuminate\Support\MessageBag as array in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 215
+[07-Jan-2014 18:57:43 UTC] PHP Fatal error:  Call to a member function count() on a non-object in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 7
+[07-Jan-2014 19:01:17 UTC] PHP Fatal error:  Call to a member function count() on a non-object in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 8
+[07-Jan-2014 19:01:36 UTC] PHP Fatal error:  Call to a member function first() on a non-object in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 12
+[08-Jan-2014 13:53:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 212
+[13-Jan-2014 19:47:07 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 161
+[14-Jan-2014 12:22:42 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 24
+[14-Jan-2014 12:24:27 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 25
+[14-Jan-2014 12:39:58 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 24
+[14-Jan-2014 12:58:38 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 26
+[14-Jan-2014 12:59:19 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 26
+[14-Jan-2014 12:59:46 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 26
+[14-Jan-2014 13:02:31 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 26
+[14-Jan-2014 13:04:38 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 26
+[14-Jan-2014 13:27:30 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 13
+[14-Jan-2014 13:28:13 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 13
+[14-Jan-2014 18:41:12 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 15
+[14-Jan-2014 18:41:22 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 15
+[14-Jan-2014 18:41:48 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/greentec/public_html/greentapp/app/controllers/ImageController.php on line 15
+[14-Jan-2014 18:42:14 UTC] PHP Fatal error:  Call to undefined method Illuminate\Http\Request::upload() in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 183
+[14-Jan-2014 18:48:15 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 201
+[16-Jan-2014 19:51:27 UTC] PHP Warning:  POST Content-Length of 129713545 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[28-Jan-2014 19:15:25 UTC] PHP Fatal error:  Class 'Images' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 211
+[28-Jan-2014 19:16:57 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 329
+[28-Jan-2014 20:46:01 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 329
+[28-Jan-2014 20:46:12 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 329
+[28-Jan-2014 20:53:41 UTC] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 330
+[29-Jan-2014 10:25:35 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 53
+[29-Jan-2014 10:25:51 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 53
+[29-Jan-2014 10:27:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 52
+[29-Jan-2014 10:29:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 53
+[29-Jan-2014 10:41:13 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 53
+[29-Jan-2014 18:46:44 UTC] PHP Fatal error:  Call to a member function all() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 334
+[29-Jan-2014 18:47:36 UTC] PHP Fatal error:  Call to a member function all() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 334
+[29-Jan-2014 21:32:17 UTC] PHP Fatal error:  Call to a member function getClientOriginalName() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 284
+[01-Feb-2014 11:25:25 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 123
+[01-Feb-2014 15:25:43 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 182
+[01-Feb-2014 15:27:25 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 182
+[01-Feb-2014 15:27:29 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 182
+[01-Feb-2014 15:27:43 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 180
+[03-Feb-2014 15:42:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 208
+[03-Feb-2014 20:02:36 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 312
+[03-Feb-2014 20:04:51 UTC] PHP Fatal error:  Class 'Intervention\Image\Image' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 308
+[03-Feb-2014 20:16:06 UTC] PHP Fatal error:  Class 'Intervention\Image\Image' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 308
+[03-Feb-2014 21:02:05 UTC] PHP Fatal error:  Call to undefined method Symfony\Component\HttpFoundation\File\UploadedFile::resize() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 312
+[03-Feb-2014 21:05:41 UTC] PHP Fatal error:  Call to undefined method Intervention\Image\Image::move() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 314
+[03-Feb-2014 21:15:08 UTC] PHP Fatal error:  Call to a member function resize() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 312
+[03-Feb-2014 21:19:46 UTC] PHP Fatal error:  Call to a member function resize() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 312
+[03-Feb-2014 21:20:17 UTC] PHP Fatal error:  Call to undefined method Intervention\Image\Image::move() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 314
+[03-Feb-2014 21:44:06 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 19
+[03-Feb-2014 21:44:58 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 19
+[03-Feb-2014 22:28:04 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 18
+[05-Feb-2014 17:23:30 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 332
+[05-Feb-2014 18:50:34 UTC] PHP Fatal error:  Class 'IoC' not found in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 13
+[05-Feb-2014 19:08:59 UTC] PHP Fatal error:  Class 'IoC' not found in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 13
+[05-Mar-2014 18:16:08 UTC] PHP Fatal error:  Class 'IoC' not found in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 20
+[05-Mar-2014 19:34:49 UTC] CSRF state token does not match one provided.
+[05-Mar-2014 19:34:51 UTC] CSRF state token does not match one provided.
+[05-Mar-2014 21:39:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/greentec/public_html/greentapp/app/routes.php on line 89
+[10-Mar-2014 16:40:39 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 17:00:23 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 17:00:24 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:25:26 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:34:57 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:35:08 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:36:29 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:36:30 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:36:47 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:48:49 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:49:16 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:49:34 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:49:49 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:50:13 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:50:55 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/greentec/public_html/greentapp/app/routes.php on line 102
+[10-Mar-2014 18:51:13 UTC] PHP Parse error:  syntax error, unexpected 'View' (T_STRING) in /home/greentec/public_html/greentapp/app/routes.php on line 102
+[10-Mar-2014 18:52:10 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:53:21 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:53:36 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:54:22 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:54:37 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:54:46 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:54:55 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:55:38 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:56:09 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:56:24 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:56:48 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:58:27 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:58:47 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 18:59:00 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:01:05 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:01:49 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:02:11 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:02:24 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:02:33 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:06:49 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:07:23 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:07:26 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:07:30 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:30:19 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:30:22 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:30:43 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:30:57 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:35:25 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:35:42 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:36:00 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:37:38 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:37:59 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:38:50 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:42:45 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:56:54 UTC] PHP Parse error:  syntax error, unexpected ''>='' (T_CONSTANT_ENCAPSED_STRING) in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 40
+[10-Mar-2014 19:57:06 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:57:24 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:57:33 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:57:43 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:57:49 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:58:08 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:58:24 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:58:55 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:59:18 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:59:20 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:59:21 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 19:59:39 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 20:00:00 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 20:00:29 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 20:01:04 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 20:01:06 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 20:01:07 UTC] CSRF state token does not match one provided.
+[10-Mar-2014 20:01:42 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:03:50 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:19:00 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:19:15 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:22:48 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:25:34 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:25:36 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:25:37 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:25:38 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:25:47 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:26:04 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:26:05 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:26:06 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:26:07 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:26:20 UTC] CSRF state token does not match one provided.
+[11-Mar-2014 18:26:21 UTC] CSRF state token does not match one provided.
+[12-Mar-2014 10:10:55 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/greentec/public_html/greentapp/app/storage/views/792e2bed19bfdac6126f66b4ba94fad2 on line 3
+[12-Mar-2014 19:16:57 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 54
+[12-Mar-2014 20:29:12 UTC] PHP Parse error:  syntax error, unexpected 'Form' (T_STRING), expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 102
+[14-Mar-2014 09:28:27 UTC] CSRF state token does not match one provided.
+[14-Mar-2014 09:33:10 UTC] CSRF state token does not match one provided.
+[14-Mar-2014 10:00:29 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 41
+[14-Mar-2014 10:09:42 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 102
+[14-Mar-2014 10:25:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 52
+[14-Mar-2014 13:44:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 103
+[14-Mar-2014 13:44:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 103
+[15-Mar-2014 10:42:50 UTC] PHP Fatal error:  Call to undefined method Illuminate\Routing\Router::duplicate() in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 209
+[16-Mar-2014 11:08:40 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 142
+[16-Mar-2014 11:31:55 UTC] PHP Fatal error:  Call to a member function getRealPath() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 362
+[16-Mar-2014 19:27:49 UTC] PHP Fatal error:  Cannot redeclare PromotionController::deletePromotion() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 489
+[17-Mar-2014 18:14:07 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/7d371aeadfd116a078cca157624d1bea on line 15
+[17-Mar-2014 18:14:32 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/7d371aeadfd116a078cca157624d1bea on line 15
+[17-Mar-2014 19:25:08 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ']' in /home/greentec/public_html/greentapp/app/routes.php on line 11
+[17-Mar-2014 19:26:24 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting ']' in /home/greentec/public_html/greentapp/app/routes.php on line 11
+[17-Mar-2014 19:26:59 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/greentec/public_html/greentapp/app/routes.php on line 13
+[17-Mar-2014 19:28:42 UTC] PHP Fatal error:  Cannot redeclare UserController::registerAction() in /home/greentec/public_html/greentapp/app/controllers/UserController.php on line 19
+[17-Mar-2014 19:28:51 UTC] PHP Fatal error:  Cannot redeclare UserController::registerAction() in /home/greentec/public_html/greentapp/app/controllers/UserController.php on line 19
+[18-Mar-2014 17:16:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/routes.php on line 194
+[18-Mar-2014 17:24:22 UTC] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home/greentec/public_html/greentapp/app/routes.php on line 101
+[18-Mar-2014 17:31:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/routes.php on line 232
+[18-Mar-2014 17:31:59 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/greentec/public_html/greentapp/app/routes.php on line 170
+[24-Mar-2014 20:41:14 UTC] PHP Fatal error:  Class 'Users' not found in /home/greentec/public_html/greentapp/app/routes.php on line 114
+[24-Mar-2014 20:45:05 UTC] CSRF state token does not match one provided.
+[24-Mar-2014 20:45:39 UTC] CSRF state token does not match one provided.
+[24-Mar-2014 20:45:47 UTC] CSRF state token does not match one provided.
+[24-Mar-2014 20:46:22 UTC] CSRF state token does not match one provided.
+[24-Mar-2014 20:46:50 UTC] CSRF state token does not match one provided.
+[24-Mar-2014 20:47:36 UTC] CSRF state token does not match one provided.
+[24-Mar-2014 21:19:23 UTC] CSRF state token does not match one provided.
+[25-Mar-2014 19:43:35 UTC] CSRF state token does not match one provided.
+[25-Mar-2014 19:48:05 UTC] CSRF state token does not match one provided.
+[25-Mar-2014 19:48:15 UTC] CSRF state token does not match one provided.
+[25-Mar-2014 19:48:46 UTC] CSRF state token does not match one provided.
+[25-Mar-2014 19:49:01 UTC] CSRF state token does not match one provided.
+[25-Mar-2014 19:53:23 UTC] CSRF state token does not match one provided.
+[25-Mar-2014 19:55:09 UTC] CSRF state token does not match one provided.
+[26-Mar-2014 18:46:58 UTC] CSRF state token does not match one provided.
+[26-Mar-2014 19:23:40 UTC] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE) in /home/greentec/public_html/greentapp/app/controllers/UserController.php on line 27
+[31-Mar-2014 17:38:56 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 18
+[17-Apr-2014 11:45:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 60
+[21-Apr-2014 14:51:18 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/controllers/UserController.php on line 77
+[21-Apr-2014 15:06:14 UTC] PHP Parse error:  syntax error, unexpected '$question' (T_VARIABLE) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 49
+[24-Apr-2014 19:35:36 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider' not found in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 123
+[24-Apr-2014 19:35:56 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider' not found in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 123
+[24-Apr-2014 19:37:04 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/config/app.php on line 115
+[24-Apr-2014 19:37:05 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/config/app.php on line 115
+[24-Apr-2014 19:37:06 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/config/app.php on line 115
+[24-Apr-2014 19:37:39 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/config/app.php on line 115
+[24-Apr-2014 19:37:40 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/config/app.php on line 115
+[24-Apr-2014 19:37:51 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/config/app.php on line 115
+[24-Apr-2014 19:37:57 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/config/app.php on line 115
+[24-Apr-2014 19:38:15 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/config/app.php on line 115
+[24-Apr-2014 19:38:16 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/config/app.php on line 115
+[24-Apr-2014 19:39:06 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/config/app.php on line 115
+[24-Apr-2014 19:39:07 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/config/app.php on line 115
+[24-Apr-2014 19:39:07 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/config/app.php on line 115
+[24-Apr-2014 19:42:04 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider' not found in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 123
+[24-Apr-2014 19:46:08 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider' not found in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 123
+[27-Apr-2014 12:03:11 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/routes.php on line 99
+[27-Apr-2014 12:05:54 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/routes.php on line 99
+[27-Apr-2014 12:06:10 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/routes.php on line 99
+[27-Apr-2014 12:06:28 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/routes.php on line 99
+[27-Apr-2014 12:07:02 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/routes.php on line 99
+[27-Apr-2014 12:15:37 UTC] PHP Parse error:  syntax error, unexpected ')', expecting function (T_FUNCTION) in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 104
+[27-Apr-2014 15:31:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/filters.php on line 10
+[27-Apr-2014 16:47:01 UTC] PHP Fatal error:  Class 'UsersVote' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 457
+[27-Apr-2014 17:33:28 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 60
+[27-Apr-2014 19:38:52 UTC] PHP Parse error:  syntax error, unexpected 'images' (T_STRING) in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[27-Apr-2014 19:39:37 UTC] PHP Parse error:  syntax error, unexpected 'Zbriši' (T_STRING) in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[27-Apr-2014 19:40:11 UTC] PHP Parse error:  syntax error, unexpected 'images' (T_STRING) in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[27-Apr-2014 19:41:44 UTC] PHP Parse error:  syntax error, unexpected 'images' (T_STRING) in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[27-Apr-2014 19:42:21 UTC] PHP Parse error:  syntax error, unexpected 'images' (T_STRING) in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[27-Apr-2014 19:43:06 UTC] PHP Parse error:  syntax error, unexpected 'images' (T_STRING) in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[27-Apr-2014 19:43:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[27-Apr-2014 19:44:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[27-Apr-2014 19:45:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[27-Apr-2014 19:46:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[27-Apr-2014 19:46:53 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[28-Apr-2014 16:41:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[28-Apr-2014 16:42:48 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[28-Apr-2014 16:43:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[28-Apr-2014 16:48:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[28-Apr-2014 16:48:01 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[28-Apr-2014 16:48:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[28-Apr-2014 16:49:02 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[28-Apr-2014 16:49:09 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[28-Apr-2014 16:49:12 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[28-Apr-2014 16:52:16 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[28-Apr-2014 16:53:07 UTC] PHP Parse error:  syntax error, unexpected 'Uredi' (T_STRING) in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[28-Apr-2014 16:58:15 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/7f7b61a728b8272f66b91d2dd702469b on line 14
+[29-Apr-2014 09:07:25 UTC] CSRF state token does not match one provided.
+[29-Apr-2014 09:09:49 UTC] PHP Fatal error:  Class 'UsersVote' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 28
+[29-Apr-2014 09:11:15 UTC] CSRF state token does not match one provided.
+[29-Apr-2014 10:14:02 UTC] CSRF state token does not match one provided.
+[29-Apr-2014 10:14:36 UTC] CSRF state token does not match one provided.
+[29-Apr-2014 10:20:25 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/greentec/public_html/greentapp/app/controllers/UserController.php on line 42
+[29-Apr-2014 10:21:20 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/greentec/public_html/greentapp/app/controllers/UserController.php on line 42
+[29-Apr-2014 10:43:11 UTC] CSRF state token does not match one provided.
+[29-Apr-2014 10:46:35 UTC] CSRF state token does not match one provided.
+[29-Apr-2014 10:50:47 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/storage/views/2917814ba8962ed8c5dacaefcd0f704d on line 15
+[29-Apr-2014 11:10:42 UTC] CSRF state token does not match one provided.
+[29-Apr-2014 11:11:53 UTC] CSRF state token does not match one provided.
+[29-Apr-2014 19:26:34 UTC] PHP Fatal error:  Call to a member function save() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 372
+[29-Apr-2014 19:26:47 UTC] PHP Fatal error:  Call to undefined method stdClass::save() in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 372
+[29-Apr-2014 19:31:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 371
+[29-Apr-2014 19:52:41 UTC] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 48
+[03-May-2014 09:41:24 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 09:41:38 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 09:41:45 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 09:41:48 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 09:41:50 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 09:57:39 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 09:58:11 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 09:59:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:01:22 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:02:03 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:02:05 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:04:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:04:55 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:05:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:10:24 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:16:28 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:18:57 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:18:59 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:19:04 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:19:05 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:19:07 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:19:09 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 10:19:50 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/cbae6d52693c11e79219e3ff88acbf73 on line 11
+[03-May-2014 17:53:08 UTC] PHP Fatal error:  Class 'CorrectAnwser' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 418
+[03-May-2014 17:53:39 UTC] PHP Fatal error:  Class 'CorrectAnwser' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 418
+[03-May-2014 17:53:49 UTC] PHP Fatal error:  Class 'CorrectAnwser' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 418
+[03-May-2014 19:42:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/792e2bed19bfdac6126f66b4ba94fad2 on line 29
+[03-May-2014 19:46:07 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/greentec/public_html/greentapp/app/storage/views/792e2bed19bfdac6126f66b4ba94fad2 on line 8
+[03-May-2014 19:46:28 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/greentec/public_html/greentapp/app/storage/views/792e2bed19bfdac6126f66b4ba94fad2 on line 8
+[03-May-2014 20:28:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/792e2bed19bfdac6126f66b4ba94fad2 on line 25
+[04-May-2014 07:36:33 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 85
+[04-May-2014 07:37:03 UTC] PHP Fatal error:  Undefined class constant 'checkbox' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 85
+[04-May-2014 07:37:52 UTC] PHP Fatal error:  Undefined class constant 'radio' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 85
+[04-May-2014 07:46:47 UTC] PHP Fatal error:  Call to undefined method Illuminate\Http\Request::radio() in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 206
+[04-May-2014 08:30:02 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 80
+[04-May-2014 09:02:32 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 425
+[04-May-2014 09:02:55 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 427
+[04-May-2014 09:03:18 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 427
+[04-May-2014 11:52:26 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 43
+[04-May-2014 11:54:58 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 40
+[04-May-2014 12:37:57 UTC] PHP Fatal error:  Call to undefined function getFacebookId() in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 110
+[04-May-2014 12:38:39 UTC] PHP Fatal error:  Call to undefined function getFacebookId() in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 110
+[04-May-2014 13:58:35 UTC] PHP Fatal error:  Function name must be a string in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 85
+[04-May-2014 16:03:42 UTC] CSRF state token does not match one provided.
+[04-May-2014 17:19:53 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/greentec/public_html/greentapp/app/storage/views/12a2125687fdcaf0bbf96eaf29739e6d on line 75
+[04-May-2014 17:22:15 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/greentec/public_html/greentapp/app/storage/views/12a2125687fdcaf0bbf96eaf29739e6d on line 75
+[08-May-2014 18:29:31 UTC] PHP Fatal error:  Class 'CorrectAnwser' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 173
+[12-May-2014 19:40:16 UTC] PHP Fatal error:  Class 'Validator' not found in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 130
+[12-May-2014 20:39:54 UTC] PHP Parse error:  syntax error, unexpected '$startDate' (T_VARIABLE), expecting ')' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 290
+[15-May-2014 12:01:54 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 17
+[15-May-2014 12:04:10 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 16
+[15-May-2014 12:06:40 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 15
+[15-May-2014 12:08:49 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 16
+[15-May-2014 12:10:54 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 16
+[15-May-2014 12:26:45 UTC] PHP Parse error:  syntax error, unexpected ''placeholder'' (T_CONSTANT_ENCAPSED_STRING) in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 41
+[15-May-2014 12:27:08 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 41
+[15-May-2014 12:28:26 UTC] PHP Parse error:  syntax error, unexpected 'link' (T_STRING), expecting ']' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 170
+[15-May-2014 12:31:31 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 41
+[15-May-2014 12:39:58 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 56
+[15-May-2014 12:40:46 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 59
+[15-May-2014 12:43:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 169
+[15-May-2014 12:43:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 170
+[15-May-2014 12:43:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 170
+[15-May-2014 12:43:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 170
+[15-May-2014 12:45:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 102
+[15-May-2014 13:04:01 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 51
+[15-May-2014 13:06:24 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 34
+[15-May-2014 13:06:34 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 34
+[15-May-2014 13:06:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 34
+[15-May-2014 13:17:38 UTC] PHP Parse error:  syntax error, unexpected '','' (T_CONSTANT_ENCAPSED_STRING) in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 102
+[15-May-2014 13:17:55 UTC] PHP Parse error:  syntax error, unexpected '','' (T_CONSTANT_ENCAPSED_STRING) in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 102
+[15-May-2014 13:29:02 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 102
+[15-May-2014 18:31:42 UTC] PHP Fatal error:  Call to a member function getResults() on a non-object in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 2070
+[15-May-2014 18:32:56 UTC] PHP Fatal error:  Call to a member function getResults() on a non-object in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 2070
+[15-May-2014 18:34:25 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 107
+[15-May-2014 18:35:11 UTC] PHP Fatal error:  Call to a member function getResults() on a non-object in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 2070
+[15-May-2014 18:39:01 UTC] PHP Fatal error:  Call to a member function getResults() on a non-object in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 2070
+[15-May-2014 18:45:36 UTC] PHP Fatal error:  Call to a member function getResults() on a non-object in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 2070
+[15-May-2014 18:49:23 UTC] PHP Fatal error:  Call to a member function getResults() on a non-object in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 2070
+[15-May-2014 18:53:11 UTC] PHP Fatal error:  Call to a member function getResults() on a non-object in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 2070
+[15-May-2014 19:14:26 UTC] PHP Fatal error:  Call to a member function getResults() on a non-object in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 2070
+[15-May-2014 20:10:57 UTC] PHP Fatal error:  Call to a member function getResults() on a non-object in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php on line 2070
+[28-May-2014 10:14:50 UTC] CSRF state token does not match one provided.
+[28-May-2014 10:15:54 UTC] CSRF state token does not match one provided.
+[28-May-2014 12:12:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 471
+[28-May-2014 12:12:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 345
+[28-May-2014 12:12:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 85
+[28-May-2014 12:33:56 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 141
+[28-May-2014 17:12:39 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 56
+[28-May-2014 17:13:07 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 56
+[28-May-2014 17:13:09 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 56
+[28-May-2014 17:13:54 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/305fff8d554449e038e2de4e6f01e43d on line 56
+[28-May-2014 18:15:06 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 312
+[28-May-2014 18:15:33 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 312
+[28-May-2014 18:15:35 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 312
+[28-May-2014 21:06:30 UTC] PHP Parse error:  syntax error, unexpected '',' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 138
+[10-Jun-2014 13:16:28 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 24
+[10-Jun-2014 13:18:54 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 24
+[10-Jun-2014 13:21:44 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 24
+[10-Jun-2014 13:22:49 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 13:25:31 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 13:26:53 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 13:29:06 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:08:18 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:09:23 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:09:25 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:13:13 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:29:31 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:33:05 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:33:07 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:33:08 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:33:08 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:33:09 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:33:18 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:33:19 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:33:20 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:34:08 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 14:42:42 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 20:35:42 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 36
+[10-Jun-2014 20:36:15 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 36
+[10-Jun-2014 20:44:16 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 26
+[10-Jun-2014 20:47:19 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 20:50:35 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/greentec/public_html/greentapp/app/storage/views/792e2bed19bfdac6126f66b4ba94fad2 on line 9
+[10-Jun-2014 20:52:20 UTC] PHP Fatal error:  Call to undefined function fblogincallback() in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 27
+[10-Jun-2014 20:53:02 UTC] PHP Fatal error:  Call to undefined function fblogincallback() in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 27
+[10-Jun-2014 21:04:03 UTC] CSRF state token does not match one provided.
+[10-Jun-2014 21:04:58 UTC] CSRF state token does not match one provided.
+[11-Jun-2014 08:00:27 UTC] PHP Fatal error:  Cannot use object of type Facebook as array in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 15
+[11-Jun-2014 08:04:07 UTC] PHP Fatal error:  Cannot access protected property Facebook::$appId in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 15
+[11-Jun-2014 08:10:22 UTC] PHP Fatal error:  Cannot access protected property Facebook::$appId in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 15
+[11-Jun-2014 08:15:14 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 15
+[11-Jun-2014 08:16:23 UTC] PHP Parse error:  syntax error, unexpected '$appId' (T_VARIABLE) in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 172
+[11-Jun-2014 08:47:27 UTC] CSRF state token does not match one provided.
+[11-Jun-2014 08:51:10 UTC] CSRF state token does not match one provided.
+[11-Jun-2014 21:33:30 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 100
+[11-Jun-2014 21:39:13 UTC] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 204
+[12-Jun-2014 11:13:02 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 251
+[12-Jun-2014 11:50:56 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 10
+[12-Jun-2014 12:19:56 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 8
+[12-Jun-2014 12:31:48 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 8
+[12-Jun-2014 12:32:12 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 8
+[12-Jun-2014 14:39:35 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 263
+[12-Jun-2014 14:39:35 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 263
+[12-Jun-2014 14:51:57 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 182
+[12-Jun-2014 14:53:26 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 182
+[12-Jun-2014 14:54:07 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 182
+[12-Jun-2014 14:56:34 UTC] PHP Parse error:  syntax error, unexpected '$uploaded_filename' (T_VARIABLE) in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 182
+[12-Jun-2014 14:57:04 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 182
+[12-Jun-2014 14:58:05 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 182
+[12-Jun-2014 15:00:09 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 183
+[12-Jun-2014 15:00:35 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 183
+[12-Jun-2014 15:00:56 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 183
+[12-Jun-2014 15:01:49 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 8
+[12-Jun-2014 15:02:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 8
+[12-Jun-2014 15:08:50 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 184
+[12-Jun-2014 16:22:23 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/greentec/public_html/greentapp/app/storage/views/c4afeaa28604d602e2e8e0d7ab9c7ee9 on line 191
+[12-Jun-2014 16:42:18 UTC] PHP Parse error:  syntax error, unexpected '$guploaded_filename' (T_VARIABLE), expecting function (T_FUNCTION) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 10
+[12-Jun-2014 16:56:14 UTC] PHP Parse error:  syntax error, unexpected '$guploaded_filename' (T_VARIABLE), expecting function (T_FUNCTION) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 10
+[12-Jun-2014 20:25:10 Europe/Belgrade] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/greentec/public_html/greentapp/app/storage/views/792e2bed19bfdac6126f66b4ba94fad2 on line 6
+[12-Jun-2014 20:25:36 Europe/Belgrade] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/greentec/public_html/greentapp/app/storage/views/792e2bed19bfdac6126f66b4ba94fad2 on line 6
+[12-Jun-2014 20:27:04 Europe/Belgrade] PHP Parse error:  syntax error, unexpected end of file in /home/greentec/public_html/greentapp/app/storage/views/792e2bed19bfdac6126f66b4ba94fad2 on line 36
+[12-Jun-2014 20:05:52 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 44
+[12-Jun-2014 20:06:25 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 44
+[12-Jun-2014 20:06:27 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 44
+[12-Jun-2014 20:06:29 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 44
+[12-Jun-2014 20:09:38 UTC] PHP Parse error:  syntax error, unexpected '$maxId' (T_VARIABLE) in /home/greentec/public_html/greentapp/app/controllers/PromotionController.php on line 48
+[13-Jun-2014 06:04:18 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:17:12 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:19:38 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:23:40 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:29:55 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:31:32 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:32:39 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:33:32 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:33:39 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:33:53 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:34:55 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:36:15 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:36:54 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:36:57 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:37:22 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:37:42 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:37:57 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 06:39:00 UTC] CSRF state token does not match one provided.
+[13-Jun-2014 08:37:51 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/greentec/public_html/greentapp/app/storage/views/31b19ceb6fbc90fadba4f5f409dae38a on line 11
+[13-Jun-2014 08:41:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/greentec/public_html/greentapp/app/controllers/FacebookController.php on line 143

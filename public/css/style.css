@@ -1,0 +1,952 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    border: 0 none;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: normal;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    color: #333333;
+    font-size: 14px;
+    outline: 0 none;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+
+/*a:hover {
+    background-color: #ebebeb;
+}*/
+textarea, input {
+    outline: 0 none;
+    resize: none;
+}
+
+label, input, .error {
+    clear  : both;
+    float  : left;
+    margin : 5px 0;
+}
+
+input[type=radio]{
+    display: inline-block;
+    clear: none;
+    float: left;
+}
+
+
+ul#anwsers{
+    width: 300px;
+}
+
+ul#anwsers li{
+    display:inline;
+    float:left;
+}
+
+
+ul#anwsers li label{
+    display: inline;
+    float:left;
+    clear: none;
+    padding-left: 3px;
+    font-size:20px;
+    width:200px;
+}
+
+input{
+    border-radius:3px;
+    height:20px;
+}
+
+input[type=submit]{
+    border-radius:3px;
+    height:30px;
+}
+
+.error {
+    /*color : #ef7c61;*/
+     /*border: 1px solid #FB503B;*/
+     /*opacity:0.4;*/
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+    color: #FB503B;
+}
+
+@media print {
+* {
+    background: none repeat scroll 0 0 transparent !important;
+    color: #000000 !important;
+    filter: none !important;
+    text-shadow: none !important;
+}
+a, a:visited {
+    text-decoration: underline;
+}
+a[href]:after {
+    content: " (" attr(href) ")";
+}
+abbr[title]:after {
+    content: " (" attr(title) ")";
+}
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+}
+pre, blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+}
+thead {
+    display: table-header-group;
+}
+tr, img {
+    page-break-inside: avoid;
+}
+img {
+    max-width: 100% !important;
+}
+@page {
+    margin: 0.5cm;
+}
+p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+}
+h2, h3 {
+    page-break-after: avoid;
+}
+}
+.clear {
+    clear: both;
+}
+.hidden {
+    display: none;
+}
+/**::-moz-selection {
+    background: none repeat scroll 0 0 #B6D7F5;
+    color: #FFFFFF;
+}*/
+p {
+    color: #636363;
+    font-size: 13px;
+    line-height: 1.6em;
+}
+span {
+    color: #494949;
+    font-size: 14px;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+ul {
+    color: #6B6B6B;
+    font-size: 13px;
+    line-height: 1.6em;
+}
+h1 {
+    color: #494949;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+h2 {
+    color: #494949;
+    font-size: 18px;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+h3 {
+    color: #494949;
+    font-size: 14px;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+h4 {
+    color: #494949;
+    font-size: 12px;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+h5 {
+    color: #494949;
+    font-size: 10px;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+h6 {
+    color: #494949;
+    font-size: 8px;
+    line-height: 1.6em;
+    text-decoration: none;
+}
+
+h1#title {
+    color: #494949;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.6em;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+body {
+    background-color: #FFFFFF;
+    background-repeat: repeat;
+}
+body.stretch {
+    background-size: cover !important;
+}
+
+div.left
+{
+    float: left;
+}
+
+#top-bar {
+    background-color: #FFFFFF;
+    height: 31px;
+    margin: 0 auto;
+    width: 1104px;
+    background:url('/images/header-top.jpg') no-repeat;
+}
+
+#top-bar span{
+    color:#FFFFFF;
+    line-height:31px;
+    margin-left:10px;
+    font-weight:bold;
+}
+
+
+#top-bar a
+{
+    margin-left:940px;
+    vertical-align:middle;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+#container {
+    background-color: #FFFFFF;
+    margin: 10px auto 0;
+    width: 1100px;
+    height:700px;
+}
+
+
+
+div#details{
+    background-color:#ebebeb;
+}
+
+div#left{
+    float:left;
+}
+
+div#login
+{
+    text-align:left;
+    margin-top:20px;
+    color:#323232;
+    width:300px;
+}
+
+div.login-form
+{
+    margin: 0px auto 0;
+}
+
+table#login
+{
+    text-align:center;
+    margin:10px auto;
+    width:300px;
+    
+}
+
+table#login td
+{
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+table#login td#submit
+{
+    text-align: left;
+}
+
+table td input
+{
+    background-color: #ebebeb;
+    border: none;
+    color: #959595;
+}
+
+table td textarea
+{
+    background-color: #ebebeb;
+    border: none;
+    color: #959595;
+    border-radius:3px;
+    padding-left:3px;
+    padding-top:3px;
+    width:260px;
+}
+
+table#login td input
+{
+    background-color: #ebebeb;
+    height:20px;
+    width:150px;
+    border: none;
+    font-size:10px;
+    color: #959595;
+    padding-left:3px;
+}
+
+table#login td input[type=submit]
+{
+    background-color: #378F45;
+    height:30px;
+    width:60px;
+    float:left;
+    border: none;
+    font-size:12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+table#register
+{
+    width:500px;
+    margin-top:20px;
+}
+
+table#register td
+{
+    width:130px;
+    float:left;;
+}
+
+table#register td input[type=submit]
+{
+    background-color: #378F45;
+    height:30px;
+    width:100px;
+    float:left;
+    border: none;
+    font-size:12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+div#menu
+{
+    float:left;
+}
+
+ul#menu
+{
+    margin-top:20px;
+    font-size: 14px;
+    font-weight: bold;
+    float:left;
+    width:100%;
+    list-style-type:none;
+}
+
+ul#menu li
+{
+    display: inline;
+    width: 300px;
+}
+
+ul#menu li a
+{
+    float:left;
+    width:150px;
+    text-decoration:none;
+    padding:0.4em 0em 0.4em 5px;
+    border-right:1px solid white;
+    height: 25px;
+    font-weight: bold;
+}
+
+
+ul#menu li a:hover
+{
+    background-color: #ebebeb;
+}
+
+/*GREY BAR-TOP*/
+div#grey-bar
+{
+    background-color: #ebebeb;
+    height: 25px;
+}
+
+div#data
+{
+    border: 2px solid #ebebeb;
+    height: 500px;
+    width:1100px;
+    
+}
+
+div#data form
+{
+    margin-left:10px;
+}
+
+div#data form label
+{
+    text-transform:uppercase;
+    float:left;
+    clear:none;
+    display:inline;
+}
+
+/*DATA TABLE*/
+table#data
+{
+}
+
+table#data tr
+{
+    width:150px;
+    font-size: 14px;
+}
+
+table#data tr th
+{
+    background: #ebebeb;
+    width:250px;
+    height: 25px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+table#data tr th.narrow
+{
+    width:130px;
+
+}
+
+table#data tr th.last
+{
+    width:570px;
+
+}
+
+table#data tr td
+{
+    height: 25px;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+table#data tr td.actions
+{
+    height: 25px;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+
+/*EDIT TABLE*/
+table.edit
+{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+table.edit tr
+{
+    width:200px;
+}
+
+
+table.edit tr td
+{
+    height: 20px;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+table.edit tr td input
+{
+   width:250px;
+}
+
+table.edit tr td input.date
+{
+    width:177px;
+}
+
+table.edit tr td input.time
+{
+    width:60px;
+}
+
+table.edit tr td textarea
+{
+    resize: none;
+    height: 100px;
+    width:250px;
+}
+
+table#edit-center
+{
+    margin-left: 10px;
+}
+
+table#edit-center tr td
+{
+    position: relative;
+}
+
+table#edit-center tr td input
+{
+    width:250px;
+}
+
+table#edit-center tr td input.file-input
+{
+    width:170px;
+    vertical-align: top;
+}.
+
+
+/*ACTIONS*/
+ul.actions
+{
+    display:inline;
+    padding-top:20px;
+}
+
+ul.actions li
+{
+    display:inline;
+    padding: 10px 10px 10px 10px;
+    margin-right: 2px;
+    border-radius:6px;
+    height:20px;
+}
+
+ul.actions li.grey
+{
+    color: #fffff;
+    background-color: #b7b7b7;
+    border:none;
+    cursor: pointer;
+    height:20px;
+}
+
+ul.actions li.green
+{
+    color:#EFE43C;
+    background-color: #379F48;
+    border:none;
+    cursor: pointer;
+}
+
+ul.actions li.red
+{
+    background-color: #fe0000;
+    border:none;
+    cursor: pointer;
+    color:white;
+}
+
+/*BUTTONS*/
+
+button
+{
+    cursor: pointer;
+}
+
+button.button-grey
+{
+    background-color: #b7b7b7;
+    border:none;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button.button-green
+{
+    background-color: #01ff00;
+    border:none;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button.button-red
+{
+    background-color: #fe0000;
+    border:none;
+    height: 30px;
+    color:white;
+    cursor: pointer;
+}
+
+button#preview
+{
+    background-color: #01ff00;
+    border:none;
+    height: 30px;
+    width: 180px;
+}
+
+button#save
+{
+    background-color: #01ff00;
+    border:none;
+    height: 30px;
+    width: 67px;
+}
+
+/*IMAGE*/
+
+h4.image-text
+{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: "PT Sans";
+}
+
+div#image
+{
+    background-color: #ebebeb;
+    width:370px;
+    margin-left: 20px;
+}
+
+/*input[type=file]
+{
+    background-color: #00ff01;
+    height:30px;
+    width:50px;
+    align:left;
+    border: none;
+    font-size:12px;
+    color: #959595;
+    cursor: pointer;
+    opacity: 0;
+    position: relative;
+}*/
+
+/*FILE SELECT*/
+div.fileinputs {
+	position: relative;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+        vertical-align: top;
+}
+
+input.file {
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}
+
+table#middle{
+    margin-left:20px;
+    margin-right:20px;
+    width:250px;
+    clear:none;
+}
+
+table#middle td{
+    width:300px;
+    height:10px;
+    clear:none;
+    display:inline;
+}
+
+table#middle td label{
+    float:left;
+    clear:none;
+    display:inline;
+    border:none;
+}
+
+table#middle input{
+    width:250px;
+    border-radius:3px;
+}
+
+table#middle td input[type=radio]{
+    width:10px;
+    display:inline-block;
+    text-align: left;
+    float: left;
+    clear:none;
+    margin-left: 5px;
+}
+
+div#left input[type=submit]{
+    background-color: #378F45;
+    height:30px;
+    width:60px;
+    float:left;
+    border: none;
+    font-size:12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+div#left input{
+    width:260px;
+    padding-left:3px;
+}
+
+
+/*input.radio{
+    width:10px;
+    display:block;
+    text-align: left;
+    float: left;
+}*/
+
+div#image{
+    width:500px;
+    height:346px;
+    margin-top:5px;
+    margin-left:0px;
+}
+
+.footer {
+    background-color: #FFFFFF;
+    height: 31px;
+    margin: 0 auto;
+    width: 1104px;
+    background:url('/images/header-top.jpg') no-repeat;
+}
+
+.footer span{
+    color:#FFFFFF;
+    line-height:31px;
+    margin-left:10px;
+}
+
+
+img#screenshot{
+    width:500px;
+}
+
+/*.error
+{
+    background-color: #FB503B;
+}*/
+
+/*FRONTEND APP PART*/
+#questioncontent
+{
+    padding:250px 0 0 400px;
+    font-size:25px;
+    width:400px;
+}
+
+#noentries
+{
+    padding:50px 0 0 40px;
+    font-size:30px;
+    width:500px;
+    color:white;
+}
+
+ul#anwsers{
+    margin-top:5px;
+    color:white;
+    
+}
+
+
+/* root element for tabs  */
+ul.tabs {
+    list-style:none;
+    margin:0 !important;
+    padding:0;
+    border-bottom:1px solid #666;
+    height:30px;
+}
+
+/* single tab */
+ul.tabs li {
+    float:left;
+    text-indent:0;
+    padding:0;
+    margin:0 !important;
+    list-style-image:none !important;
+}
+
+div#button{
+    margin-top:10px;
+    clear: both;
+    margin-top: 5px;
+}
+
+/* link inside the tab. uses a background image */
+ul.tabs a {
+    background: url(../images/green.png) no-repeat -420px 0;
+    font-size:11px;
+    display:block;
+    height: 30px;
+    line-height:30px;
+    width: 134px;
+    text-align:center;
+    text-decoration:none;
+    color:#333;
+    padding:0px;
+    margin:0px;
+    position:relative;
+    top:1px;
+}
+
+ul.tabs a:active {
+    outline:none;
+}
+
+/* when mouse enters the tab move the background image */
+ul.tabs a:hover {
+    background-position: -420px -31px;
+    color:#fff;
+}
+
+/* active tab uses a class name "current". its highlight is also done by moving the background image. */
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+    background-position: -420px -62px;
+    cursor:default !important;
+    color:#000 !important;
+}
+
+/* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
+
+
+/* width 1 */
+ul.tabs a.s { background-position: -553px 0; width:81px; }
+ul.tabs a.s:hover { background-position: -553px -31px; }
+ul.tabs a.s.current  { background-position: -553px -62px; }
+
+/* width 2 */
+ul.tabs a.l { background-position: -248px -0px; width:174px; }
+ul.tabs a.l:hover { background-position: -248px -31px; }
+ul.tabs a.l.current { background-position: -248px -62px; }
+
+
+/* width 3 */
+ul.tabs a.xl { background-position: 0 -0px; width:248px; }
+ul.tabs a.xl:hover { background-position: 0 -31px; }
+ul.tabs a.xl.current { background-position: 0 -62px; }
+
+
+/* initially all panes are hidden */
+.panes .pane {
+    display:none;
+}
+
+/* tab pane styling */
+.panes div {
+    /*display:none;*/
+    padding:15px 10px;
+    border:0px solid #999;
+    border-top:0;
+    height:600px;
+    font-size:14px;
+    background-color:#fff;
+}
+
+span.empty
+{
+    font-size:30px;
+    display:block;
+    margin-left: 50px;
+    margin-top:20px;
+}
+
+span.empty a
+{
+    font-size:30px;
+    color:#39cc3e;
+}
+
+/*SUMBIT BUTTON*/
+#submit
+{
+    cursor:pointer;
+    border: none;
+    width:163px;
+    height:30px;
+    color:white;
+    float:left;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }

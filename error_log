@@ -1,0 +1,2 @@
+[22-Apr-2014 21:28:49 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/greentec/public_html/greentapp/app/database/migrations/2014_04_22_205840_create_user_votes_table.php on line 26
+[22-Apr-2014 21:33:46 UTC] PHP Fatal error:  Class 'CretePromotionsTable' not found in /home/greentec/public_html/greentapp/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php on line 301
